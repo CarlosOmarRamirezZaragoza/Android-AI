@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_baseline_list
+drawable ic_baseline_photo_camera
+drawable ic_baseline_settings
+id action_barcode_scanning
+id action_dog_recognition
+id action_image_labeling
+id action_text_recognition
+id camera_preview
+id dog_list_fab
+id feature_selection_button
+id loading_wheel
+id take_photo_fab
+layout activity_main
+menu features_menu
+string camera_permission_rationale_dialog_message
+string camera_permission_rationale_dialog_title
+string camera_permission_rejected_message
+string error_taking_photo
+string this_is_a_content_description
