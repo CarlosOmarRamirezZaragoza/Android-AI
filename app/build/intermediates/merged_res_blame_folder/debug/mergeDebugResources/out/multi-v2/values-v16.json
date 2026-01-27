@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ml.dogedex.app-mergeDebugResources-82:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/carlos.rz/.gradle/caches/transforms-4/696a4f0b91d9040a9b46b5c6a98798a6/transformed/core-1.12.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/Users/carlos.rz/.gradle/caches/transforms-4/9b5fdb68329a9e3d703f887881302a40/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

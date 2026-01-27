@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ml.dogedex.app-mergeDebugResources-82:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/carlos.rz/.gradle/caches/transforms-4/9b5fdb68329a9e3d703f887881302a40/transformed/appcompat-1.6.1/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

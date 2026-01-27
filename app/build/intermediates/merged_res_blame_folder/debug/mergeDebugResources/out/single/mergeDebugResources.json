@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.ml.dogedex.app-debug-84:/drawable_dog_list_item_null_background.xml.flat",
+        "source": "com.ml.dogedex.app-main-86:/drawable/dog_list_item_null_background.xml"
+    },
+    {
+        "merged": "com.ml.dogedex.app-debug-84:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.ml.dogedex.app-main-86:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.ml.dogedex.app-debug-84:/drawable_red_circle.xml.flat",
+        "source": "com.ml.dogedex.app-main-86:/drawable/red_circle.xml"
+    },
+    {
+        "merged": "com.ml.dogedex.app-debug-84:/drawable_dog_list_item_background.xml.flat",
+        "source": "com.ml.dogedex.app-main-86:/drawable/dog_list_item_background.xml"
+    },
+    {
+        "merged": "com.ml.dogedex.app-debug-84:/drawable_ic_check_black.xml.flat",
+        "source": "com.ml.dogedex.app-main-86:/drawable/ic_check_black.xml"
+    },
+    {
+        "merged": "com.ml.dogedex.app-debug-84:/xml_provider_paths.xml.flat",
+        "source": "com.ml.dogedex.app-main-86:/xml/provider_paths.xml"
+    },
+    {
+        "merged": "com.ml.dogedex.app-debug-84:/drawable_progressbar_background.xml.flat",
+        "source": "com.ml.dogedex.app-main-86:/drawable/progressbar_background.xml"
+    },
+    {
+        "merged": "com.ml.dogedex.app-debug-84:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.ml.dogedex.app-main-86:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.ml.dogedex.app-debug-84:/drawable_ic_hearth_white.xml.flat",
+        "source": "com.ml.dogedex.app-main-86:/drawable/ic_hearth_white.xml"
+    },
+    {
+        "merged": "com.ml.dogedex.app-debug-84:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.ml.dogedex.app-main-86:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.ml.dogedex.app-debug-84:/drawable_detail_info_background.xml.flat",
+        "source": "com.ml.dogedex.app-main-86:/drawable/detail_info_background.xml"
+    },
+    {
+        "merged": "com.ml.dogedex.app-debug-84:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.ml.dogedex.app-main-86:/drawable/ic_launcher_background.xml"
+    }
+]

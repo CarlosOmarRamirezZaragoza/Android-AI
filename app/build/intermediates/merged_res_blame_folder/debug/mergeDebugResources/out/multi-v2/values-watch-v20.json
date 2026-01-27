@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ml.dogedex.app-mergeDebugResources-82:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/carlos.rz/.gradle/caches/transforms-4/9b5fdb68329a9e3d703f887881302a40/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}
