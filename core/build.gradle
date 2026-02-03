@@ -43,6 +43,11 @@ android {
     }
 }
 
+secrets {
+    // If pluging doest find local.properties, search on Github Actions
+    defaultPropertiesFileName = "local.defaults.properties"
+}
+
 tasks.withType(KotlinCompile).configureEach {
     kotlinOptions {
         freeCompilerArgs += "-Xskip-prerelease-check"
