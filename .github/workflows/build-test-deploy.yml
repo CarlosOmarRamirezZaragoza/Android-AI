@@ -1,4 +1,4 @@
-name: Android CI
+name: Android CI/CD
 
 on: 
   push:
@@ -82,4 +82,4 @@ jobs:
             - Automatic compilation CI/CD.
           draft: false
           prerelease: false
-          files: app_debug.apk
+          files: app-debug.apk
