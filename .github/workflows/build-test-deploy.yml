@@ -74,7 +74,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v1.0.${{github.run_number}}
-          name: "Dogedex AI - Build $ {{github.run_number}}"
+          name: "Dogedex AI - Build ${{github.run_number}}"
           body: |
             ### 🚀 New Test version
             - Gemini 1.5 frash integration completed.
