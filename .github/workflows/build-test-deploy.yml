@@ -50,14 +50,8 @@ jobs:
         run: ./gradlew assembleDebug
         env:
           GEMINI_API_KEY: ${{secrets.GEMINI_API_KEY}}
-
-# 3. Create the Artifact job after build success
-  artifact:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - uses: actions/checkout@v4
       - name: Upload APK Artifact
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: dogedex-app-debug
