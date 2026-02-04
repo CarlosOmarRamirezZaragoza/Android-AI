@@ -71,7 +71,7 @@ jobs:
 
       - name: Create Github Release
         id: create_release
-        uses: softprops/action-gn-release@v2
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: v1.0.${{github.run_number}}
           name: "Dogedex AI - Build $ {{github.run_number}}"
