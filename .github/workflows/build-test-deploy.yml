@@ -44,14 +44,15 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: test-report
-
+          path: ./reports
+          
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.' 
+          path: './reports' 
 
       - name: Deploy to GitHub Pages
         id: deployment
