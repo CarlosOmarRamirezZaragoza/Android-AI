@@ -29,7 +29,7 @@ jobs:
           name: test-report
           path: "**/build/reports/tests/testDebugUnitTest/"
         
-# 2. Build to create the enviroment and to run our project only if passed test
+# 2. CI - Build to create the enviroment and to run our project only if passed test 
   build:
     runs-on: ubuntu-latest
     needs: test
@@ -57,3 +57,29 @@ jobs:
           name: dogedex-app-debug
           path: app/build/outputs/apk/debug/app-debug.apk
       
+# 3. CD - Deploy
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download APK from build job
+        uses: actions/download-artifact@v4
+        with:
+          name: dogedex-app-debug
+
+      - name: Create Github Release
+        id: create_release
+        uses: softprops/action-gn-release@v2
+        with:
+          tag_name: v1.0.${{github.run_number}}
+          name: "Dogedex AI - Build $ {{github.run_number}}"
+          body: |
+            ### 🚀 New Test version
+            - Gemini 1.5 frash integration completed.
+            - ML Kit models and TensorFlow lite optimized
+            - Automatic compilation CI/CD.
+          draft: false
+          prerelease: false
+          files: app_debug.apk
