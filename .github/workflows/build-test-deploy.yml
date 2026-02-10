@@ -89,8 +89,8 @@ jobs:
           path: |
             ~/.gradle/caches
             ~/.gradle/wrapper
-            key: gradle-${{ runner.os }}-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
-            restore-keys: |
+          key: gradle-${{ runner.os }}-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          restore-keys: |
             gradle-${{ runner.os }}-
       
       - name: Grant execute pemission for gradlew
